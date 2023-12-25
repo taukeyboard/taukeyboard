@@ -31,4 +31,5 @@ sdk_append_source(${CMAKE_CURRENT_LIST_DIR}/rt-thread/libcpu/WCH/Qingke_V4A/inte
 sdk_append_source(${CMAKE_CURRENT_LIST_DIR}/rt-thread/src/*.c)
 endif()
 
-
+sdk_append_inc(LIB)
+sdk_add_link_libraries(${CMAKE_CURRENT_SOURCE_DIR}/LIB/LIBCH58xBLE.a)

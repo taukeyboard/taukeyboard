@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "usbd_hid.h": "c",
+        "usbd_core.h": "c",
+        "string.h": "c",
+        "ch58xble_lib.h": "c",
+        "stdio.h": "c",
+        "ch58x_common.h": "c",
+        "ch58x_gpio.h": "c",
+        "lwrb.h": "c"
+    }
+}

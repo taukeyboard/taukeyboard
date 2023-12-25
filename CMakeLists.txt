@@ -38,6 +38,9 @@ if(DEBUG)
 sdk_add_compile_definitions(-DDEBUG=1)
 endif()
 
+sdk_append_source(main_task.c)
+sdk_append_source(usb_task.c)
+
 sdk_set_main_file(main.c)
 
 project(${BOARD}_usb_${DEMO_TYPE}_${project_name})
